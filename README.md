@@ -16,10 +16,11 @@ After rebooting, type 'sway'
 
 Controls ::: 
 
-Mod = Windows key | 
+Mod = Windows key |||
 Mod+q = terminal | 
 Mod+c = close | 
-Mod+Enter =wofi
+Mod+Enter = wofi | 
+Mod+(number keys) = switch workspace | 
 
 *Screenshots with grim and slurp with put the screenshot into Pictures/Screenshots
 
