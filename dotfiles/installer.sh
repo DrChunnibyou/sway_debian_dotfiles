@@ -1,16 +1,15 @@
 #!/bin/bash
 #
 echo "MAKE SURE SUDO IS CONFIGURED!!!!"
-echo "READY TO INSTALL[y/n]?"
+echo "READY TO INSTALL | PRESS ENTER"
 read ready
-#if [ $ready = "y" ]; then
 
 mkdir -p ~/Documents
 mkdir -p ~/Downloads
 mkdir -p ~/Pictures/Screenshots
 mkdir ~/.config
 
-pkgs=(sway plocate thunar htop neofetch pavucontrol git wofi firefox-esr mpv grim slurp dunst waybar fonts-font-awesome pipewire wireplumber pipewire-pulse alacritty brightnessctl)
+pkgs=(sway wl-clipboard vim plocate thunar htop neofetch pavucontrol git wofi firefox-esr mpv grim slurp dunst waybar fonts-font-awesome pipewire wireplumber pipewire-pulse alacritty brightnessctl)
 
 sudo apt update
 sudo apt-get -y --ignore-missing install "${pkgs[@]}"
@@ -23,17 +22,8 @@ ln -sf ~/dotfiles/config/waybar ~/.config/waybar
 cp ~/dotfiles/config/alacritty/alacritty.yml ~/.config/
 
 systemctl --user --now enable wireplumber.service
-echo "SETUP COMPLETE"
+echo "SETUP COMPLETE, PLEASE REBOOT"
 
-#echo "READY TO REBOOT?[y/n] "
-#read choice
-#
-#if [ $choice = "y" ]; then
-#	sudo reboot
-#else
-#	echo "Idfk what you said, try again[y/n]"
-#fi 
-
-
+####
 
 
