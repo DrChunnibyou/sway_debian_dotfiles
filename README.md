@@ -9,6 +9,6 @@ This will Contain:
   Htop 
 
 It must be used right after  a No desktop environment Debian install, with sudo command setup
-This does NOT have a display manager
+This does NOT have a login manager
 
 After rebooting, type 'sway' 
