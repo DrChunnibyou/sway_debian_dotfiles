@@ -15,11 +15,10 @@ sudo apt update
 sudo apt-get -y --ignore-missing install "${pkgs[@]}"
 
 ln -sf ~/dotfiles/config/sway ~/.config/sway
-ln -sf ~/dotfiles/config/dusnt ~/.config/dunst
+ln -sf ~/dotfiles/config/dunst ~/.config/dunst
 ln -sf ~/dotfiles/config/wofi ~/.config/wofi
 ln -sf ~/dotfiles/config/waybar ~/.config/waybar
-#ln -sf ~/.dotiles/.config/alacritty ~/.config/alacritty
-cp ~/dotfiles/config/alacritty/alacritty.yml ~/.config/
+ln -sf ~/dotfiles/config/alacritty ~/.config/alacritty
 
 systemctl --user --now enable wireplumber.service
 echo "SETUP COMPLETE, PLEASE REBOOT"
