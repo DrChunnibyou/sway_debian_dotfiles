@@ -15,8 +15,8 @@ This does NOT have a login manager
 After rebooting, type 'sway' 
 
 Controls ::: 
-Mod = Windows key
 
+Mod = Windows key
 Mod+q = terminal
 Mod+c = close
 Mod+Enter =wofi
