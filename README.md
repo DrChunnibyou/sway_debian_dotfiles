@@ -16,9 +16,9 @@ After rebooting, type 'sway'
 
 Controls ::: 
 
-Mod = Windows key
-Mod+q = terminal
-Mod+c = close
+Mod = Windows key | 
+Mod+q = terminal | 
+Mod+c = close | 
 Mod+Enter =wofi
 
 *Screenshots with grim and slurp with put the screenshot into Pictures/Screenshots
