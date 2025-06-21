@@ -14,11 +14,11 @@ pkgs=(sway wl-clipboard xdg-desktop-portal-wlr vim plocate thunar htop neofetch 
 sudo apt update
 sudo apt-get -y --ignore-missing install "${pkgs[@]}"
 
-ln -sf ~/dotfiles/config/sway ~/.config/sway
-ln -sf ~/dotfiles/config/dunst ~/.config/dunst
-ln -sf ~/dotfiles/config/wofi ~/.config/wofi
-ln -sf ~/dotfiles/config/waybar ~/.config/waybar
-ln -sf ~/dotfiles/config/alacritty ~/.config/alacritty
+ln -sf ~/sway_debian_dotfiles/dotfiles/config/sway ~/.config/sway
+ln -sf ~/sway_debian_dotfiles/dotfiles/config/dunst ~/.config/dunst
+ln -sf ~/sway_debian_dotfiles/dotfiles/config/wofi ~/.config/wofi
+ln -sf ~/sway_debian_dotfiles/dotfiles/config/waybar ~/.config/waybar
+ln -sf ~/sway_debian_dotfiles/dotfiles/config/alacritty ~/.config/alacritty
 
 systemctl --user --now enable wireplumber.service
 echo "SETUP COMPLETE, PLEASE REBOOT"
