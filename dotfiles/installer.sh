@@ -9,7 +9,7 @@ mkdir -p ~/Downloads
 mkdir -p ~/Pictures/Screenshots
 mkdir ~/.config
 
-pkgs=(sway wl-clipboard vim plocate thunar htop neofetch pavucontrol git wofi firefox-esr mpv grim slurp dunst waybar fonts-font-awesome pipewire wireplumber pipewire-pulse alacritty brightnessctl)
+pkgs=(sway wl-clipboard xdg-desktop-portal-wlr vim plocate thunar htop neofetch pavucontrol git wofi firefox-esr mpv grim slurp dunst waybar fonts-font-awesome pipewire wireplumber pipewire-pulse alacritty brightnessctl)
 
 sudo apt update
 sudo apt-get -y --ignore-missing install "${pkgs[@]}"
