@@ -21,8 +21,7 @@ set $menu wofi --show drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-#output * bg /home/milord/Downloads/lain_powerline.jpg fill
-output * bg ~/dotfiles/kenshibeach.png fill
+output * bg ~/sway_debian_dotfiles/dotfiles/kenshibeach.png fill
 #
 # Example configuration:
 #
